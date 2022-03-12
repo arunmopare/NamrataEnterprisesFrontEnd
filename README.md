@@ -1,6 +1,10 @@
-# VaradFincorpFrontend
+# Namrata Enterprises Front End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This project was developed and designed by CyberonixTech and Modified by Arun Mopare
+
+## Git Brach
+
+Use Master branch to run this project.
 
 ## Development server
 
