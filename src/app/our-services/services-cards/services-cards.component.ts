@@ -7,13 +7,12 @@ import { Component, OnInit } from "@angular/core";
 })
 export class ServicesCardsComponent implements OnInit {
   ServiceContent = [
-    "We enable clients to raise funds through financial institutions and also from capital market.",
-    "We help you explore all suitable options of fund raising and securing your assets from different financial institutions so that you avail maximum customized benefits as per your requirements.",
-    "Expert advice and unmatched service at every step, with minimal and hassle-free documentation till full & final disbursement.",
-    "Assists you to explore the best deals available across the financial market and provide end to end services in processing the funding at attractive interest rates.",
+    "We provide all types of Labours for your Business need.",
+    "Some of our services are as follows Forklift Driver, ITI Welder, Fitter, Electrition, Helper, Gardener, House Keepers, etc.",
+    "Namrata Enterprises is a Team of experts, we provide optimal solutions for all kinds of industrial needs.",
+    "We provide all kinds of Industrial Supplies and tools for all your business needs",
     "We maintain absolute Transparency, Integrity and Commitment in every transaction.",
-    "We ensure just-in-time services to our clients. Our industry expertise helps us to cut short the repetitive to and fro between the clients and Financial institutions to a large extent ensuring smooth and hassle free client experience.",
-    "Our client-oriented approach and customized walk- through Financial Institutions keeps us on the top priority of our clients and investors.",
+    "We are a reputed company in Shirwal and have been Serving various companies since 2015",
   ];
   constructor() {}
 

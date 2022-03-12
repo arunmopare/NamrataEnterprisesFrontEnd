@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "varad-fincorp-frontend": {
+    "namrata-enterprises-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/varad-fincorp-frontend",
+            "outputPath": "dist/namrata-enterprises-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "varad-fincorp-frontend:build"
+            "browserTarget": "namrata-enterprises-frontend:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "varad-fincorp-frontend:build:production"
+              "browserTarget": "namrata-enterprises-frontend:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "varad-fincorp-frontend:build"
+            "browserTarget": "namrata-enterprises-frontend:build"
           }
         },
         "test": {
@@ -113,18 +113,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "varad-fincorp-frontend:serve"
+            "devServerTarget": "namrata-enterprises-frontend:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "varad-fincorp-frontend:serve:production"
+              "devServerTarget": "namrata-enterprises-frontend:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "varad-fincorp-frontend",
+  "defaultProject": "namrata-enterprises-frontend",
   "cli": {
     "analytics": false
   }
