@@ -1,0 +1,29 @@
+.container-fluid{
+  margin-top: 60px;
+}
+
+.MainContent{
+  background-color:#E9E7F6;
+  padding: 15px 15px;
+  margin-bottom: 10px;
+}
+
+.MainImage img{
+  display: block;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MainContent p{
+  font-style: none;
+  font-weight: normal;
+  color: #393184;
+  font-size: 18px;
+}
+
+.content img{
+  height: 25px;
+  width: 23px;
+}
+

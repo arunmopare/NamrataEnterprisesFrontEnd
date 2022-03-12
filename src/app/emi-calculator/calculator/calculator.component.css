@@ -1,0 +1,47 @@
+#divChart {
+  display: block;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+#emiCalText {
+  background-color: #393184;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form{
+  margin-top: 0px;
+  background-color: #F8F8F8;
+  padding: 15px;
+}
+
+#col1{
+  margin-bottom: 40px;
+}
+#col2{
+  background-color: #F8F8F8;
+  margin-bottom: 40px;  
+}
+
+#col3{
+  background-color:#F8F8F8;
+  margin-bottom: 40px;
+}
+
+h3{
+  color: black;
+}
+
+h6{
+  color:#727070;
+}
+
+#divChart{
+  display: block;
+  padding-top: 10px;
+}

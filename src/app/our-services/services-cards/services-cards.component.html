@@ -1,0 +1,48 @@
+<div class="container d-none d-md-block">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1 style="margin: 40px 40px;">
+        Our Services
+      </h1>
+    </div>
+  </div>
+
+  <div
+    *ngFor="let i of ServiceContent"
+    class="row row-repeat "
+  >
+    <div class="col-md-2 col-sm-2 col-xs-2">
+      <div class="frame">
+        <span class="helper"></span
+        ><img
+          src="../../assets/our-services/correct-logo.png"
+          height="100px"
+          width="100px"
+        />
+      </div>
+    </div>
+    <div class="col-md-10 col-sm-10 col-xs-2 info-card">
+      <span>
+        {{ i }}
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- For Mobile -->
+<div class="container-small d-none d-block d-md-none">
+  <div class="col-md-12 text-center">
+    <h1 style="margin: 40px 40px;">
+      Our Services
+    </h1>
+    <div *ngFor="let i of ServiceContent" class="box">
+      <div class="boxContent">
+        <img src="../../assets/our-services/correct-logo.png" alt="" />
+
+        <p class="desc">
+          {{ i }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
