@@ -1,82 +1,164 @@
-
 <section>
   <div class="container d-none d-md-block">
     <div class="ContactInfo">
-        <div>
-          <h2>Contact Us</h2>
-          <ul class="info">
+      <div>
+        <h2>Contact Us</h2>
+        <ul class="info">
+          <li>
+            <span
+              ><img src="../../../assets/contact-us-icons/location.png"
+            /></span>
+            <span
+              >Near, Swapnashilp Complex, Shirke Colony, Pune Banglore
+              Highway,<br />
+              Shirwal, Maharashtra, India<br />
+              412801</span
+            >
+          </li>
 
-            <li>
-              <span><img src="../../../assets/contact-us-icons/location.png"></span>
-                <span>Samarth path, Karve Nagar, near Alankar police Chowki,<br>
-                      Pune, Maharashtra, India<br>
-                      411030</span>
-            </li>
+          <li>
+            <span><img src="../../../assets/contact-us-icons/mail.jpg" /></span>
+            <span>support@namrataenterprises.in</span>
+          </li>
 
-            <li>
-              <span><img src="../../../assets/contact-us-icons/mail.jpg"></span>
-              <span>support@varadfincorp.in</span>
-            </li>
-
-            <li>
-              <span><img src="../../../assets/contact-us-icons/phone.png"></span>
-              <span>+91 9766134377</span>
-            </li>
-
-          </ul>
-          <ul class="sci" style="">
-            <li><a href="https://www.facebook.com/pages/category/Product-Service/Varad-Fincorp-103463904819236/"><img src="../../../assets/contact-us-icons/fb.png" style="width: 40px; height: 40px; margin-left: 40px;"></a></li>
-            <li><a href="https://www.instagram.com/varadfincorp/"><img src="../../../assets/contact-us-icons/insta.png" style="width: 40px; height: 40px;"></a></li>
-            <li><a href="https://www.linkedin.com/company/69809614/admin/"><img src="../../../assets/contact-us-icons/linkedin.png" style="width: 45px; height: 40px;"></a></li>
-          </ul>
-        </div>
+          <li>
+            <span
+              ><img src="../../../assets/contact-us-icons/phone.png"
+            /></span>
+            <span>+91 9673336290</span>
+          </li>
+        </ul>
+        <ul class="sci" style="">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              ><img
+                src="../../../assets/contact-us-icons/fb.png"
+                style="width: 40px; height: 40px; margin-left: 40px"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img
+                src="../../../assets/contact-us-icons/insta.png"
+                style="width: 40px; height: 40px"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><img
+                src="../../../assets/contact-us-icons/linkedin.png"
+                style="width: 45px; height: 40px"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="ContactForm">
       <h2>Get In Touch</h2>
-      <form [formGroup]="registerDesktopForm" (ngSubmit)="signupDesk();" class="formBox form-group">
+      <form
+        [formGroup]="registerDesktopForm"
+        (ngSubmit)="signupDesk()"
+        class="formBox form-group"
+      >
         <div class="inputBox w50 form-group">
-          <input formControlName="firstname" [ngClass]="{ 'is-invalid': submitted && fvaldesk.firstname.errors }" type="text" placeholder="First Name*" class="form-control" name="firstname" required/>
-          <div *ngIf="submitted && fvaldesk.firstname.errors" class="invalid-feedback">
+          <input
+            formControlName="firstname"
+            [ngClass]="{ 'is-invalid': submitted && fvaldesk.firstname.errors }"
+            type="text"
+            placeholder="First Name*"
+            class="form-control"
+            name="firstname"
+            required
+          />
+          <div
+            *ngIf="submitted && fvaldesk.firstname.errors"
+            class="invalid-feedback"
+          >
             <div *ngIf="fvaldesk.firstname.invalid">
-                 First Name is required and must be valid
+              First Name is required and must be valid
             </div>
-
-
-        </div>
+          </div>
         </div>
 
         <div class="inputBox w50 form-group">
-          <input formControlName="lastname" [ngClass]="{ 'is-invalid': submitted && fvaldesk.lastname.errors }" type="text" placeholder="Last Name*" class="form-control" name="lastname" required/>
-          <div *ngIf="submitted && fvaldesk.lastname.errors" class="invalid-feedback">
+          <input
+            formControlName="lastname"
+            [ngClass]="{ 'is-invalid': submitted && fvaldesk.lastname.errors }"
+            type="text"
+            placeholder="Last Name*"
+            class="form-control"
+            name="lastname"
+            required
+          />
+          <div
+            *ngIf="submitted && fvaldesk.lastname.errors"
+            class="invalid-feedback"
+          >
             <div *ngIf="fvaldesk.lastname.invalid">
-                 Last Name is required and must be valid
+              Last Name is required and must be valid
             </div>
-        </div>
-        </div>
-        <div class="inputBox w50 form-group">
-          <input formControlName="emailid" [ngClass]="{ 'is-invalid': submitted && fvaldesk.emailid.errors }" type="email" placeholder="Email*" class="form-control" name="lastname" required>
-          <div *ngIf="submitted && fvaldesk.emailid.errors" class="invalid-feedback">
-            <div *ngIf="fvaldesk.emailid.invalid">Enter a valid email address</div>
-        </div>
+          </div>
         </div>
         <div class="inputBox w50 form-group">
-          <input formControlName="mobile" [ngClass]="{ 'is-invalid': submitted && fvaldesk.mobile.errors }" type="text" placeholder="10 digit Mobile Number*" class="form-control" name="mobile" required>
-          <div *ngIf="submitted && fvaldesk.mobile.errors" class="invalid-feedback">
+          <input
+            formControlName="emailid"
+            [ngClass]="{ 'is-invalid': submitted && fvaldesk.emailid.errors }"
+            type="email"
+            placeholder="Email*"
+            class="form-control"
+            name="lastname"
+            required
+          />
+          <div
+            *ngIf="submitted && fvaldesk.emailid.errors"
+            class="invalid-feedback"
+          >
+            <div *ngIf="fvaldesk.emailid.invalid">
+              Enter a valid email address
+            </div>
+          </div>
+        </div>
+        <div class="inputBox w50 form-group">
+          <input
+            formControlName="mobile"
+            [ngClass]="{ 'is-invalid': submitted && fvaldesk.mobile.errors }"
+            type="text"
+            placeholder="10 digit Mobile Number*"
+            class="form-control"
+            name="mobile"
+            required
+          />
+          <div
+            *ngIf="submitted && fvaldesk.mobile.errors"
+            class="invalid-feedback"
+          >
             <div *ngIf="fvaldesk.mobile.invalid">
-                10 digit Mobile Number is required and must be valid
+              10 digit Mobile Number is required and must be valid
             </div>
-        </div>
+          </div>
         </div>
         <div class="inputBox w50 form-group">
-          <textarea formControlName="msg" [ngClass]="{ 'is-invalid': submitted && fvaldesk.msg.errors }" type="text" placeholder="Message*" class="form-control" name="mobile" required></textarea>
-          <div *ngIf="submitted && fvaldesk.msg.errors" class="invalid-feedback">
+          <textarea
+            formControlName="msg"
+            [ngClass]="{ 'is-invalid': submitted && fvaldesk.msg.errors }"
+            type="text"
+            placeholder="Message*"
+            class="form-control"
+            name="mobile"
+            required
+          ></textarea>
+          <div
+            *ngIf="submitted && fvaldesk.msg.errors"
+            class="invalid-feedback"
+          >
             <div *ngIf="fvaldesk.msg.errors.required">
-                Message is required and must be valid
+              Message is required and must be valid
             </div>
-        </div>
+          </div>
         </div>
         <div class="inputBox w10fvalmobile">
-          <input class="btn btn-primary" type="submit" value="Submit">
+          <input class="btn btn-primary" type="submit" value="Submit" />
         </div>
       </form>
     </div>
@@ -89,58 +171,127 @@
     <div class="row">
       <div class="col-sm-12 col-xs-12 my-col">
         <div class="ContactForm">
-          <h2 class="text-center" >Get in Touch</h2>
-          <form [formGroup]="registerMobileForm" (ngSubmit)="signupMobile();" class="formBox form-group">
+          <h2 class="text-center">Get in Touch</h2>
+          <form
+            [formGroup]="registerMobileForm"
+            (ngSubmit)="signupMobile()"
+            class="formBox form-group"
+          >
             <div class="inputBox w50 form-group">
-              <input formControlName="firstname" [ngClass]="{ 'is-invalid': submitted && fvalmobile.firstname.errors }" type="text" placeholder="First Name*" class="form-control" name="firstname" required/>
-              <div *ngIf="submitted && fvalmobile.firstname.errors" class="invalid-feedback">
+              <input
+                formControlName="firstname"
+                [ngClass]="{
+                  'is-invalid': submitted && fvalmobile.firstname.errors
+                }"
+                type="text"
+                placeholder="First Name*"
+                class="form-control"
+                name="firstname"
+                required
+              />
+              <div
+                *ngIf="submitted && fvalmobile.firstname.errors"
+                class="invalid-feedback"
+              >
                 <div *ngIf="fvalmobile.firstname.invalid">
-                     First Name is required and must be valid
+                  First Name is required and must be valid
                 </div>
-            </div>
+              </div>
             </div>
 
             <div class="inputBox w50 form-group">
-              <input formControlName="lastname" [ngClass]="{ 'is-invalid': submitted && fvalmobile.lastname.errors }" type="text" placeholder="Last Name*" class="form-control" name="lastname" required/>
-              <div *ngIf="submitted && fvalmobile.lastname.errors" class="invalid-feedback">
+              <input
+                formControlName="lastname"
+                [ngClass]="{
+                  'is-invalid': submitted && fvalmobile.lastname.errors
+                }"
+                type="text"
+                placeholder="Last Name*"
+                class="form-control"
+                name="lastname"
+                required
+              />
+              <div
+                *ngIf="submitted && fvalmobile.lastname.errors"
+                class="invalid-feedback"
+              >
                 <div *ngIf="fvalmobile.lastname.invalid">
-                     Last Name is required and must be valid
+                  Last Name is required and must be valid
                 </div>
-            </div>
+              </div>
             </div>
 
             <div class="inputBox w50 form-group">
-              <input formControlName="emailid" [ngClass]="{ 'is-invalid': submitted && fvalmobile.emailid.errors }" type="emailid" placeholder="Email*" class="form-control" name="lastname" required>
-              <div *ngIf="submitted && fvalmobile.emailid.errors" class="invalid-feedback">
+              <input
+                formControlName="emailid"
+                [ngClass]="{
+                  'is-invalid': submitted && fvalmobile.emailid.errors
+                }"
+                type="emailid"
+                placeholder="Email*"
+                class="form-control"
+                name="lastname"
+                required
+              />
+              <div
+                *ngIf="submitted && fvalmobile.emailid.errors"
+                class="invalid-feedback"
+              >
                 <div *ngIf="fvalmobile.emailid.errors.required">
-                    Email is required
+                  Email is required
                 </div>
-                <div *ngIf="fvalmobile.emailid.valid">Enter a valid email address</div>
-            </div>
+                <div *ngIf="fvalmobile.emailid.valid">
+                  Enter a valid email address
+                </div>
+              </div>
             </div>
             <div class="inputBox w50 form-group">
-              <input formControlName="mobile" [ngClass]="{ 'is-invalid': submitted && fvalmobile.mobile.errors }" type="text" placeholder="Mobile Number*" class="form-control" name="mobile" required>
-              <div *ngIf="submitted && fvalmobile.mobile.errors" class="invalid-feedback">
+              <input
+                formControlName="mobile"
+                [ngClass]="{
+                  'is-invalid': submitted && fvalmobile.mobile.errors
+                }"
+                type="text"
+                placeholder="Mobile Number*"
+                class="form-control"
+                name="mobile"
+                required
+              />
+              <div
+                *ngIf="submitted && fvalmobile.mobile.errors"
+                class="invalid-feedback"
+              >
                 <div *ngIf="fvalmobile.mobile.errors.required">
-                     10 digit Mobile Number is required and must be valid
+                  10 digit Mobile Number is required and must be valid
                 </div>
-                <div *ngIf="fvalmobile.mobile.invalid">Enter a 10 digit number</div>
-
-            </div>
+                <div *ngIf="fvalmobile.mobile.invalid">
+                  Enter a 10 digit number
+                </div>
+              </div>
             </div>
             <div class="inputBox w50 form-group">
-              <textarea formControlName="msg" [ngClass]="{ 'is-invalid': submitted && fvalmobile.msg.errors }" type="text" placeholder="Message*" class="form-control" name="msg" required></textarea>
-              <div *ngIf="submitted && fvalmobile.msg.errors" class="invalid-feedback">
+              <textarea
+                formControlName="msg"
+                [ngClass]="{ 'is-invalid': submitted && fvalmobile.msg.errors }"
+                type="text"
+                placeholder="Message*"
+                class="form-control"
+                name="msg"
+                required
+              ></textarea>
+              <div
+                *ngIf="submitted && fvalmobile.msg.errors"
+                class="invalid-feedback"
+              >
                 <div *ngIf="fvalmobile.msg.errors.required">
-                    Message is required and must be valid
+                  Message is required and must be valid
                 </div>
-            </div>
+              </div>
             </div>
             <div class="inputBox w100">
-              <input class="btn btn-primary" type="submit" value="Submit">
+              <input class="btn btn-primary" type="submit" value="Submit" />
             </div>
           </form>
-
         </div>
       </div>
     </div>
