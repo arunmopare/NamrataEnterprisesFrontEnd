@@ -1,6 +1,6 @@
 # Namrata Enterprises Front End
 
-This project was developed and designed by CyberonixTech and Modified by Arun Mopare
+This project was developed and designed by CyberonixTech🧡 and Modified by Arun Mopare
 
 ## Git Brach
 
