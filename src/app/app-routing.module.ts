@@ -24,77 +24,11 @@ const routes: Routes = [
     },
   },
   {
-    path: "product",
-    component: ProductComponent,
-    data: {
-      title: "Our Products",
-      description: `Loans (Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl) Insurance (Life insurance, general insurance, other insurance) Investment Banking(Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring)`,
-      keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
-    },
-  },
-  {
     path: "ourservices",
     component: OurServicesComponent,
     data: {
       title: "Our Services",
       description: `Helps you explore all suitable options of fund raising and securing your assets from different financial institutions so that you avail maximum customized benefits as per your requirements. We enable clients to raise funds through financial institutions and also from capital market. We maintain absolute Transparency, Integrity and Commitment in every transaction.`,
-      keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
-    },
-  },
-
-  {
-    path: "emicalculator",
-    component: EmiCalculatorComponent,
-    data: {
-      title: "EMI Calculator",
-      description: `Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan & Personal Loan in India 
-      (with interactive charts)
-      EMI Calculator - Calculate Loan EMI in 3 Easy Steps
-      ✓ Enter loan ammount
-      ✓Enter Interest rate
-      ✓ Enter tenure
-      A detailed depiction of calculated EMI will be generated with pi chart and exact payable amount.`,
-      keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
-    },
-  },
-  {
-    path: "product/product-loan",
-    component: ProductLoansComponent,
-    data: {
-      title: "Product Loan",
-      description: `Loans (Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl)
-      Insurance (Life insurance, general insurance, other insurance)
-      Investment Banking(Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right
-      issues, Debt syndication and restructuring)`,
-      keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
-    },
-  },
-  {
-    path: "product/product-insurance",
-    component: ProductInsuranceComponent,
-    data: {
-      title: "Product Insurance",
-      description: `Loans (Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl)
-      Insurance (Life insurance, general insurance, other insurance)
-      Investment Banking(Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right
-      issues, Debt syndication and restructuring)`,
-      keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
-    },
-  },
-  {
-    path: "product/product-investment",
-    component: InvestmentBankingComponent,
-    data: {
-      title: "Product Investment",
-      description: `Loans (Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl)
-    Insurance (Life insurance, general insurance, other insurance)
-    Investment Banking(Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right
-    issues, Debt syndication and restructuring)`,
       keywords:
         "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
     },
