@@ -1,13 +1,8 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
-import { ProductComponent } from "./product/product.component";
-import { EmiCalculatorComponent } from "./emi-calculator/emi-calculator.component";
 import { AboutUsComponent } from "./about-us/about-us.component";
 import { OurServicesComponent } from "./our-services/our-services.component";
-import { ProductLoansComponent } from "./product/product-loans/product-loans.component";
-import { ProductInsuranceComponent } from "./product/product-insurance/product-insurance.component";
-import { InvestmentBankingComponent } from "./product/investment-banking/investment-banking.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 const routes: Routes = [
