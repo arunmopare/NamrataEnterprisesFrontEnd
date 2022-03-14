@@ -13,9 +13,9 @@ const routes: Routes = [
     component: HomeComponent,
     data: {
       title: `Home`,
-      description: `We specialize in services that bring in values to the corporates as well to their stakeholders (Internal & External) thus becoming a value adding enterprise for all your financial needs!! Varad Fincorp believes in breaking boundaries that restrict corporates and individuals to explore options into the financial space. We help overcome constraints like dealing with financial institutions including all Private Banks, Public Sector & Co-operative Banks, Non-Banking Financial Corporations and Insurance companies.`,
+      description: `"We provide all types of Labours for your Business need. We are a reputed company in Shirwal and Serving various companies since 2015. Some of the services we provide are listed below Forklift Driver, ITI Welder, Fitter, Electrition, Helper, Gardener, House Keepers, etc."`,
       keywords:
-        ",home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
+        "Namrata Enterprises,Shirwal, Labor contractor,Forklift Driver, ITI Welder, Fitter, Electrician, Helper, Gardener, House Keepers",
     },
   },
   {
@@ -23,9 +23,11 @@ const routes: Routes = [
     component: OurServicesComponent,
     data: {
       title: "Our Services",
-      description: `Helps you explore all suitable options of fund raising and securing your assets from different financial institutions so that you avail maximum customized benefits as per your requirements. We enable clients to raise funds through financial institutions and also from capital market. We maintain absolute Transparency, Integrity and Commitment in every transaction.`,
+      description: `We provide all types of Labours for your Business need.
+
+      Some of our services are as follows Forklift Driver, ITI Welder, Fitter, Electrition, Helper, Gardener, House Keepers, etc.`,
       keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
+        "Namrata Enterprises,Shirwal, Labor contractor,Forklift Driver, ITI Welder, Fitter, Electrician, Helper, Gardener, House Keepers",
     },
   },
   {
@@ -33,9 +35,9 @@ const routes: Routes = [
     component: AboutUsComponent,
     data: {
       title: "About Us",
-      description: `Vision : “To be an organization that is recognized, respected and trusted by clients, employees, business partners and investors. Our vision is to be a leading financial services company in India by creating high quality, affordable and innovative solutions in Financial Consulting and Services.” Mission : “Our Mission is to build confidence & trust of our clients through professional approach to our clients and providing services that exceeds expectations".`,
+      description: `Namrata Enterprises was established in 2015 into the Labours contractor business. Namrata Enterprises believes in providing the best and most skilled laborers for any kind of client requirement. Namrata Enterprises provide all types of Labours for your Business need. We are a reputed company in Shirwal and have been Serving various companies since 2015. Some of the services we provide are listed below Forklift Driver, ITI Welder, Fitter, Electrician, Helper, Gardener, House Keepers, etc.`,
       keywords:
-        "Namrata Enterprises,home,Home loan, Mortgage, Project funding, Working capital, Bussiness loans, Otherl,Life insurance, general insurance, other insurance,Merger and acquisition, Initial public offers, Equity based funding, Valuations,Right issues, Debt syndication and restructuring",
+        "Namrata Enterprises,Shirwal, Labor contractor,Forklift Driver, ITI Welder, Fitter, Electrician, Helper, Gardener, House Keepers",
     },
   },
   { path: "404", component: PageNotFoundComponent },
