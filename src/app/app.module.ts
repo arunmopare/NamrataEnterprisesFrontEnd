@@ -31,6 +31,7 @@ import { MatDialogModule } from "@angular/material/dialog";
 import { HttpClientModule } from "@angular/common/http";
 import { MetaService } from "./app.SEO.service";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { AboutLeaderComponent } from './about-us/about-leader/about-leader.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
     ErrorMessageComponent,
     ServicesCardsComponent,
     PageNotFoundComponent,
+    AboutLeaderComponent,
   ],
 
   imports: [

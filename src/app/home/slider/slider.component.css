@@ -10,9 +10,8 @@
 
 .MainImage img{
   display: block;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100px;
+  margin: auto;
 }
 
 .MainContent p{
