@@ -1,0 +1,86 @@
+<div class="containers">
+    <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+            <h2>Join Us</h2>
+            <form class="form-group" [formGroup]="joinuform" (ngSubmit)="submitForm()">
+                <input type="text" class="field form-control" placeholder="Name" formControlName="vendor_name"
+                    [ngClass]="{
+              'is-invalid': submitted && fvalmobile.vendor_name.errors
+            }" name="name" required />
+                <div *ngIf="submitted && fvalmobile.vendor_name.errors" class="invalid-feedback float-left">
+                    <div style="position: relative" *ngIf="fvalmobile.name.invalid">
+                        Name is required and must be valid
+                    </div>
+                </div>
+
+                <input type="text" class="field form-control" placeholder="Email" formControlName="vendor_email_address"
+                    [ngClass]="{
+              'is-invalid': submitted && fvalmobile.vendor_email_address.errors
+            }" type="email" name="emailid" required />
+                <div *ngIf="submitted && fvalmobile.vendor_email_address.errors" class="invalid-feedback">
+                    <div *ngIf="fvalmobile.vendor_email_address.errors.required">
+                        Email is required
+                    </div>
+                    <div *ngIf="fvalmobile.vendor_email_address.valid">
+                        Enter a valid email address
+                    </div>
+                </div>
+                <input formControlName="vendor_shop_name" [ngClass]="{
+              'is-invalid': submitted && fvalmobile.vendor_shop_name.errors
+            }" type="text" class="field form-control" placeholder="Shop Name" name="shop" required />
+                <div *ngIf="submitted && fvalmobile.vendor_shop_name.errors" class="invalid-feedback float-left">
+                    <div style="position: relative" *ngIf="fvalmobile.vendor_shop_name.invalid">
+                        Shop Name is required and must be valid
+                    </div>
+                </div>
+                <input formControlName="vendor_mobile_number" [ngClass]="{
+              'is-invalid': submitted && fvalmobile.vendor_mobile_number.errors
+            }" class="field form-control" placeholder="Contact Number" name="mobile" required />
+                <div *ngIf="submitted && fvalmobile.vendor_mobile_number.errors" class="invalid-feedback">
+                    <div *ngIf="fvalmobile.vendor_mobile_number.invalid">
+                        10 digit Mobile Number is required and must be valid
+                    </div>
+                </div>
+
+                <textarea formControlName="vendor_shop_address" [ngClass]="{
+              'is-invalid': submitted && fvalmobile.vendor_shop_address.errors
+            }" placeholder="Shop Address" class="field form-control">
+          </textarea>
+                <div *ngIf="submitted && fvalmobile.vendor_shop_address.errors" class="invalid-feedback">
+                    <div *ngIf="fvalmobile.vendor_shop_address.errors.required">
+                        Shop Address is required and must be valid
+                    </div>
+                </div>
+
+                <div [ngClass]="{
+              'is-invalid': submitted && fvalmobile.privacycb.errors
+            }" class="checkbox float-left">
+                    <div class="custom-control custom-checkbox">
+                        <input required name="Terms" id="terms" type="checkbox" class="custom-control-input"
+                            formControlName="privacycb" />
+                        <label class="custom-control-label no_indent checkbox-inline" for="terms">
+                            By checking this you agree to our privacy policy for more click
+                            here.
+                        </label>
+                    </div>
+                </div>
+
+                <div [ngClass]="{
+              'is-invalid': submitted && fvalmobile.isresponcecb.errors
+            }" class="checkbox float-left">
+                    <div class="custom-control custom-checkbox">
+                        <input required name="Terms" id="submitResponse" type="checkbox" class="custom-control-input"
+                            formControlName="isresponcecb" />
+                        <label class="checkbox-inline custom-control-label no_indent" for="submitResponse">
+                            Submit response of the form as mail
+                        </label>
+                    </div>
+                </div>
+                <button [disabled]="joinuform.invalid" type="submit" value="submit" class="btn">
+                    Join
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -33,6 +33,8 @@ import { MetaService } from "./app.SEO.service";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { AboutLeaderComponent } from './about-us/about-leader/about-leader.component';
 import { Footerv2Component } from './Base/footerv2/footerv2.component';
+import { JoinUsComponent } from './join-us/join-us.component';
+import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,8 @@ import { Footerv2Component } from './Base/footerv2/footerv2.component';
     PageNotFoundComponent,
     AboutLeaderComponent,
     Footerv2Component,
+    JoinUsComponent,
+    ContactUsPageComponent,
   ],
 
   imports: [
