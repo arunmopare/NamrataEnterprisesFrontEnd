@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MatDialog} from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-header',
@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
   openDialog() {
-    const dialogRef = this.dialog.open(ContactUsPopUp,{
+    const dialogRef = this.dialog.open(ContactUsPopUp, {
       height: '90%',
       width: '90%'
     });
@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
 }
 @Component({
   selector: 'dialog-content-example-dialog',
-  template:`
+  template: `
   <h2 mat-dialog-title>Contact Us</h2>
 <mat-dialog-content  style="width:auto">
 <app-contact-us></app-contact-us>
@@ -36,4 +36,4 @@ export class HeaderComponent implements OnInit {
 </mat-dialog-actions>
   `,
 })
-export class ContactUsPopUp{}
+export class ContactUsPopUp { }

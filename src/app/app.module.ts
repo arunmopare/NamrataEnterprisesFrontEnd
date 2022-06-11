@@ -32,6 +32,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { MetaService } from "./app.SEO.service";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { AboutLeaderComponent } from './about-us/about-leader/about-leader.component';
+import { Footerv2Component } from './Base/footerv2/footerv2.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { AboutLeaderComponent } from './about-us/about-leader/about-leader.compo
     ServicesCardsComponent,
     PageNotFoundComponent,
     AboutLeaderComponent,
+    Footerv2Component,
   ],
 
   imports: [

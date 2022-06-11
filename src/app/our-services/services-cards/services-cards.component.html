@@ -1,27 +1,20 @@
 <div class="container d-none d-md-block">
   <div class="row">
-    <div class="col-md-12 text-center">
-      <h1 style="margin: 40px 40px;">
+    <div class="col-md-12 text-center shadow-sm ">
+      <h1>
         Our Services
       </h1>
     </div>
   </div>
 
-  <div
-    *ngFor="let i of ServiceContent"
-    class="row row-repeat "
-  >
+  <div *ngFor="let i of ServiceContent" class="row row-repeat">
     <div class="col-md-2 col-sm-2 col-xs-2">
       <div class="frame">
-        <span class="helper"></span
-        ><img
-          src="../../assets/our-services/correct-logo.png"
-          height="100px"
-          width="100px"
-        />
+        <span class="helper"></span><img src="../../assets/our-services/correct-logo.png" height="100px"
+          width="100px" />
       </div>
     </div>
-    <div class="col-md-10 col-sm-10 col-xs-2 info-card">
+    <div class="col-md-10 col-sm-10 col-xs-2 info-card shadow-lg">
       <span>
         {{ i }}
       </span>
